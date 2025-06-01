@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Book</title>
+    <script src="script.js" type="module" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Search Book</h1>
+      <form class="form-books js-form-books">
+        <input
+          class="input js-input"
+          type="text"
+          name="user_query"
+          placeholder="Search for books..."
+          required
+        />
+        <button class="btn js-btn" type="submit">Search</button>
+      </form>
+      <ul class="books js-books" id="books"></ul>
+    </div>
+  </body>
+</html>
